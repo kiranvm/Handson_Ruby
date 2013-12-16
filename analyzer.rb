@@ -1,4 +1,4 @@
-lines=File.readlines("text.txt")
+lines=File.readlines(ARGV[0])
 
 line_count = lines.size
 
@@ -42,3 +42,5 @@ puts "#{sentence_count} sentences"
 puts "#{line_count} lines"
 
 puts "#{paragraph_count} paragraphs"
+
+
